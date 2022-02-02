@@ -39,7 +39,7 @@ Pré-requisitos: ter instalado o node, npm e o angular-cli .v11
 
 ### Clonando o repositório
 
-REPO_FRONT
+https://github.com/Joao1512/sistema-oscar-frontend.git
 
 ### Instalando as dependências
 
@@ -83,7 +83,7 @@ Rodar o Projeto Java com o [SpringToolSuite](https://spring.io/tools) para Eclip
 
 ### Clonando o repositório
 
-REPO_BACK
+https://github.com/Joao1512/sistema-oscar-backend.git
 
 ### ☕ Configurando o Projeto Java
 
