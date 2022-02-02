@@ -1,0 +1,29 @@
+<div class="flex ">
+    <div class="card-login">
+        <div class="titulo">
+            Fazer Login
+        </div>
+        <form class="form animate__animated animate__fadeIn" [formGroup]="formLogin">
+            <mat-form-field appearance="outline" class="form-item">
+                <mat-label>E-mail</mat-label>
+                <input matInput placeholder="e-mail" formControlName="email">
+            </mat-form-field>
+
+            <mat-form-field appearance="outline" class="form-item">
+                <mat-label>Senha</mat-label>
+                <input matInput placeholder="senha" [type]="hide ? 'password' : 'text'" formControlName="senha">
+                <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+                    <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+                </button>
+                <mat-hint>Esqueceu a Senha?</mat-hint>
+            </mat-form-field>
+
+            <div class="footer-buttons">
+                <a class=" form-item" style='align-self: center;'>Criar conta</a>
+                <button mat-raised-button color="warn" (click)="acessarEvento()"  class="form-item">Acessar</button>
+            </div>
+
+        </form>
+
+    </div>
+</div>

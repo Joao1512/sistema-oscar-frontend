@@ -1,0 +1,18 @@
+.nav {
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 24px 0;
+}
+
+.brand {
+    font-size: 18px;
+    align-self: center;
+    cursor: pointer;
+}

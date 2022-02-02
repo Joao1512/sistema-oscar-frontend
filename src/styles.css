@@ -1,0 +1,44 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; max-height: 100%; }
+
+.container {
+    max-width: 960px;
+    margin: 64px auto;
+}
+
+.accent {
+    color: #69F0AE;
+}
+
+.primary {
+    color: #9d1006;
+}
+
+.background-primary {
+    background-color: #9d1006;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.subtitle {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .container {
+        margin: 64px 16px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .container {
+        margin: 64px 16px;
+    }
+}

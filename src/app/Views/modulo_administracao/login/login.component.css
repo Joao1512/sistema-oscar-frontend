@@ -1,0 +1,36 @@
+.flex {
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    height: calc(100% - 450px);
+}
+
+.card-login {
+    height: 450px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo {
+font-size: 24px;    
+margin-bottom: 70px;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    
+}
+.form-item {
+    margin-top: 8px;
+}
+
+.footer-buttons {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

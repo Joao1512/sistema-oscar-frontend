@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+margin: auto 0;
+}
+
+.form {
+    margin-top: 32px;
+}
+
+.formulario-actions {
+    display: flex;
+    justify-content: flex-end;
+
+    margin-top: 16px;
+}
+
+.salvar {
+    margin-left: 8px;
+}

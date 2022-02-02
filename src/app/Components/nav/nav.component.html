@@ -1,0 +1,22 @@
+<div class="nav background-primary">
+    <div class="container">
+        <div class="brand" [routerLink]="['/usuarios']">OSCAR</div>
+        <div class="menu" *ngIf="existeUsuarioAutenticado()">
+            <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Conta">
+                <mat-icon>more_vert</mat-icon>
+              </button>
+            <mat-menu #menu="matMenu">
+              <button mat-menu-item [routerLink]="['meuPerfil']" ><mat-icon>person</mat-icon> <span>Perfil</span> </button>
+              <button mat-menu-item (click)="sairEvento()"> <mat-icon>logout</mat-icon> <span>Sair</span> </button>
+            </mat-menu>
+        </div>
+        <div class="menu" *ngIf="!existeUsuarioAutenticado()">
+            <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Conta">
+                <mat-icon>more_vert</mat-icon>
+              </button>
+            <mat-menu #menu="matMenu">
+                <button mat-menu-item (click)="entrarEvento()"> <mat-icon>login</mat-icon> <span>Entrar</span> </button>
+            </mat-menu>
+        </div>
+    </div>
+</div>

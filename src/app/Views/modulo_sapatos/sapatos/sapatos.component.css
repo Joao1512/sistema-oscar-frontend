@@ -1,0 +1,55 @@
+.container-with-filter {
+    display: flex;
+    max-width: 1080px;
+    margin: 64px auto;
+}
+
+.container-filter {
+    margin: 64px 24px;
+    width: 100%;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+margin: auto 0;
+}
+
+.table {
+    margin-top: 32px;
+}
+
+table {
+    width: 100%;
+}
+
+mat-form-field {
+    margin-left:6px;
+}
+
+form {
+display: flex;
+flex-direction: column;
+}
+
+mat-card {
+    max-width: 960px;
+}
+
+
+.right-align {
+    text-align: right;
+  }
+  
+  input.right-align::-webkit-outer-spin-button,
+  input.right-align::-webkit-inner-spin-button {
+    display: none;
+  }
+  
+  input.right-align {
+    -moz-appearance: textfield;
+  }

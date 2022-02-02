@@ -1,0 +1,16 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+margin: auto 0;
+}
+
+.table {
+    margin-top: 32px;
+}
+
+table {
+    width: 100%;
+}

@@ -1,0 +1,67 @@
+<div class="container">
+    <h1 class="title">
+        Editar Perfil
+    </h1>
+    <form>
+        <div class="campo-foto">
+            <div class="icone-foto">
+                <mat-icon class="material-icons-outlined" style=" font-size: 96px;">
+                    account_circle
+                </mat-icon>
+            </div>
+            <div class="botao-trocar">
+                <button  mat-stroked-button color='accent'>Trocar Avatar</button>
+                <p style='margin-top: 8px; color: #757575;'>Min 256x256px PNG ou JPEG.</p>
+            </div>
+        </div>          
+          <mat-tab-group mat-align-tabs="start" style="margin-top: 32px">
+            <mat-tab label="Público" >
+                <div class="inputs">
+                    <mat-form-field appearance="outline">
+                        <mat-label>Nome</mat-label>
+                        <input matInput placeholder="Placeholder">
+                      </mat-form-field>
+                    <mat-form-field appearance="outline">
+                        <mat-label>Email</mat-label>
+                        <input matInput placeholder="Placeholder">
+                    </mat-form-field>
+                    <h1 class="subtitle" style="width: 100%;">
+                        Endereço
+                    </h1>
+                    <mat-form-field appearance="outline">
+                        <mat-label>Rua</mat-label>
+                        <input matInput placeholder="Placeholder">
+                    </mat-form-field >
+                    <mat-form-field appearance="outline">
+                        <mat-label>Complemento</mat-label>
+                        <input matInput placeholder="Placeholder">
+                    </mat-form-field > 
+                    <mat-form-field appearance="outline">
+                        <mat-label>Bairro</mat-label>
+                        <input matInput placeholder="Placeholder">
+                    </mat-form-field >  
+                    <mat-form-field appearance="outline">
+                        <mat-label>Número</mat-label>
+                        <input matInput placeholder="Placeholder">
+                    </mat-form-field >  
+                </div>
+            </mat-tab>
+            <mat-tab label="Credencial">
+                <div class="inputs">
+                    <mat-form-field style='width: 100% !important;' appearance="outline">
+                        <mat-label>Senha Atual</mat-label>
+                        <input type='password' matInput placeholder="Placeholder">
+                    </mat-form-field >  
+                    <mat-form-field style='width: 100% !important;' appearance="outline">
+                        <mat-label>Nova Senha</mat-label>
+                        <input type='password' matInput placeholder="Placeholder">
+                    </mat-form-field >  
+                    <mat-form-field style='width: 100% !important;' appearance="outline">
+                        <mat-label>Repetir Nova Senha</mat-label>
+                        <input type='password' matInput placeholder="Placeholder">
+                    </mat-form-field >  
+                </div>
+            </mat-tab>
+          </mat-tab-group>
+    </form>
+</div>

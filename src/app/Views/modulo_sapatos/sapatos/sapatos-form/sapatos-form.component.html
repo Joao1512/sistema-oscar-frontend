@@ -1,0 +1,56 @@
+
+<div class="container animate__animated animate__fadeIn">
+    <h1 class="title">
+        Editar Sapato
+    </h1>
+    <div class="inputs">
+    <form [formGroup]="formSapatos">
+        <div class="inputs">
+            <mat-form-field appearance="outline">
+                <mat-label>Marca</mat-label>
+                <input formControlName='marca' matInput placeholder="Ex: Nike">
+              </mat-form-field>
+    
+            <mat-form-field appearance="outline">
+                <mat-label>Cor</mat-label>
+                <input formControlName='cor' matInput placeholder="Ex: Preto">
+            </mat-form-field>
+    
+            <mat-form-field appearance="outline">
+                <mat-label>Preço</mat-label>
+                <input required formControlName='preco' type='number' matInput>
+            </mat-form-field >
+    
+            <mat-form-field appearance="outline">
+                <mat-label>Tamanho</mat-label>
+                <input required type='number' formControlName='tamanho' matInput>
+            </mat-form-field > 
+    
+            <mat-form-field appearance="outline">
+                <mat-label>Categoria</mat-label>
+                <input  formControlName='categoria' matInput placeholder="Ex: Corrida">
+            </mat-form-field >  
+    
+            <mat-form-field appearance="outline">
+                <mat-label>Data de Cadastro</mat-label>
+                <input required formControlName='dataCadastro' matInput placeholder="02/02/2022" >
+            </mat-form-field >  
+    
+            <mat-form-field appearance="outline">
+                <mat-label>Quantidade em Estoque</mat-label>
+                <input required formControlName='quantidadeEstoque' matInput type="number">
+            </mat-form-field >  
+    
+            <mat-form-field appearance="outline">
+                <mat-label>Descrição</mat-label>
+                <input formControlName='descricao' matInput>
+            </mat-form-field >  
+        </div>
+        <div class='formulario-actions'>
+            <button mat-stroked-button color='primary' style='color: white' [routerLink]="['/sapatos']" ><mat-icon>cancel</mat-icon> Voltar</button>
+            <button mat-flat-button color='warn' (click)="onSalvar()" class='salvar' ><mat-icon>save</mat-icon> Salvar</button>
+        </div>
+    </form>
+
+    </div>
+</div>

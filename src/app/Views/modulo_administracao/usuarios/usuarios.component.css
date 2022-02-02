@@ -1,0 +1,21 @@
+.areas {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+}
+
+mat-card {
+    width: 40%;
+    margin-top: 32px;
+}
+
+mat-card:hover {
+    cursor: pointer;
+    
+}
+
+.titulo {
+    font-size: 24px;    
+    margin-bottom: 70px;
+    text-transform: uppercase;
+    }

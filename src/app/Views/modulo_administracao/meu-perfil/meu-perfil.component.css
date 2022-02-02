@@ -1,0 +1,28 @@
+form {
+    margin-top: 64px;
+}
+
+.icone-foto {
+    width: 96px;
+    height: 96px;
+}
+
+.botao-trocar {
+    margin-left: 16px; max-height: 40px; align-self: center;
+}
+
+.campo-foto {
+    display: flex;
+}
+
+.inputs {
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+mat-form-field {
+    width: 48%;
+}

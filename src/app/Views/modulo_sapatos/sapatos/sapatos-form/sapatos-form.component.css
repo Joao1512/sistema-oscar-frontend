@@ -1,0 +1,27 @@
+form {
+    margin-top: 64px;
+}
+
+.campo-foto {
+    display: flex;
+}
+
+.inputs {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+mat-form-field {
+    width: 48%;
+}
+
+.formulario-actions {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.salvar {
+    margin-left: 8px;
+}
